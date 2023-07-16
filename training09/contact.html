@@ -32,7 +32,8 @@
                 <p>当店の商品について質問やご意見については
                     下記フォームよりお問い合わせください。<br>
                     また、任意ですがアンケート内容にも協力お願い致します。</p>
-                <form name="form1" method="get" action="">
+                <form name="form1" action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="37bb1a72-d647-43d7-ad6c-e3048a1488f8">
                     <table>
                         <tr>
                             <th>氏名（必須）</th>
@@ -72,7 +73,7 @@
                                     <option value="sweets">スイーツについて</option>
                                     <option value="reservation">予約販売について</option>
                                     <option value="request">当店への要望・ご意見</option>
-                                     <option value="other">その他</option>
+                                    <option value="other">その他</option>
                                 </select>
                             </td>
                         </tr>
