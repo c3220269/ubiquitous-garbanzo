@@ -7,7 +7,7 @@ body{
 }
 
 /*  */
-.navtop{
+.navtop ul{
     list-style: none;
     text-align: center;
 }
